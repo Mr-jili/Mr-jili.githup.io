@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[elm]]></title>
+      <url>5b8f829067f35600349ee4ef</url>
+      <content type="text"><![CDATA[为了保证页面的整洁美观，在很多的时候，我们常需要隐藏超出长度的文字。 以下是超出定宽容器显示省略号的设置方法，原理都一样。 HTML代码： 123&lt;div class="item"&gt; &lt;p class="line-limit"&gt;亲，一行文字太多，显示不下，接下来的文字我要用省略号代替。我可能是超出长度被隐藏的文字&lt;/p&gt;&lt;/div&gt; CSS代码： 123456789.item &#123; background-color: #9cc9ef; max-width: 470px;&#125;.line-limit &#123; overflow: hidden; /*超出隐藏*/ text-overflow: ellipsis; /*文本隐藏部分显示为省略*/ white-space: nowrap; /*文本不换行，这样超出一行的部分被截取，显示...*/&#125; 效果截图：]]></content>
+    </entry>
+
+    
+   
+    
+  
+  
+</search>
